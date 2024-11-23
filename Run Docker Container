@@ -1,0 +1,7 @@
+//Build the Docker image//
+
+docker build -t house-price-api .
+
+//Run the container// 
+
+docker run -p 5000:5000 house-price-api
