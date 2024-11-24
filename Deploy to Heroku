@@ -1,0 +1,28 @@
+//Initialize a Git repository//
+
+git init
+git add .
+git commit -m "Initial commit"
+
+//Log in to Heroku and create an app://
+
+heroku login
+heroku create house-price-api
+
+//Push the code to Heroku://
+git push heroku master
+
+//Open the app in the browser://
+
+heroku open
+
+
+
+
+
+
+
+
+
+
+
