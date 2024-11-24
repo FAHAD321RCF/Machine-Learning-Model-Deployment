@@ -1,0 +1,5 @@
+//Install AWS CLI and configure your credentials.
+Use AWS Elastic Beanstalk CLI to deploy://
+
+eb init -p docker house-price-api
+eb create house-price-api-env
